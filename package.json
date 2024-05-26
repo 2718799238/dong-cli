@@ -1,8 +1,8 @@
 {
-  "name": "my-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "dong-pioneer-cli",
+  "version": "1.0.1",
+  "description": "属于自己cli脚手架",
+  "main": "./bin/cli.js",
   "bin": {
     "dong": "./bin/cli.js"
   },
@@ -11,27 +11,25 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "dong-cli",
-    "dong",
+    "dong-pioneer",
+    "dong-pioneer-cli",
     "脚手架",
     "dong-template"
   ],
   "author": {
-    "name": "dong",
+    "name": "dong-pioneer",
     "email": "2718799238@qq.com"
   },
   "files": [
     "bin",
     "lib"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@inquirer/prompts": "^5.0.4",
     "axios": "^1.7.2",
-    "chalk": "^4.1.2",
     "commander": "^12.1.0",
     "download-git-repo": "^3.0.2",
-    "ejs": "^3.1.10",
     "fs-extra": "^11.2.0",
     "ora": "^5.1.0"
   }
